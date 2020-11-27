@@ -1,0 +1,214 @@
+/*colors and fonts*/
+
+body { 
+	background-color: lightgrey; 
+	color: black;
+	font-family: Arial;
+	font-size: 16px;
+ }
+
+ h1{ 
+ 	color: grey;
+ 	font-size: 30px;
+ 	letter-spacing: 3px;
+	font-family: calibri;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+h2, h3 {
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 0;
+}
+
+h2{
+	color: red;
+	font-size: 20px;
+}
+
+h3 {
+	color: rgb(100,100,100);
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+	text-align: center; 
+	margin-left: 40px;
+
+}
+
+a:hover {
+	color: purple;
+}
+
+p { text-align: center;}
+
+img {
+	margin-left: 90px;
+}
+
+/*element and style*/
+div {
+	width: 700px;
+	background: white;
+	margin: 90px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1)
+}
+
+/*mise en page des images*/
+
+#facebook {
+	width: 50px;
+	border-radius: 50%;
+}
+#maud {
+	width: 120px;
+}
+
+#noise {
+	width: 50px;
+	border-radius: 50%;
+	margin-left: 240px;
+}
+
+#costarica {
+	width: 50px;
+	margin-left: 240px;
+	margin-top: -50px;
+}
+
+#vietnam {
+	width: 50px;
+	margin-left: 240px;
+	margin-top: -50px;
+}
+
+#cambodge {
+	width: 50px;
+	margin-left: 20px;
+	margin-top: -50px;
+}
+
+#mada {
+	width: 50px;
+	margin-left: 350px;
+	margin-top: -40px;
+}
+
+#tennis {
+	width: 50px;
+	height: 50px;
+	margin-left: 100px;
+	border-radius: 50%;
+}
+
+#boxe {
+	width: 50px;
+	height: 50px;
+	margin-left: 130px;
+	border-radius: 50%;
+}
+
+#rugby {
+	width: 50px;
+	height: 50px;
+	margin-left: 130px;
+	border-radius: 50%;
+}
+
+#couture {
+	width: 50px;
+	margin-left: 70px;
+	margin-top: -50px;
+}
+
+#patisserie {
+	width: 50px;
+	margin-left: 90px;
+	margin-top: -50px;
+}
+
+/*style.css*/
+.text-justify{
+	text-align: justify;
+}
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+	background-color: lightgrey
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1)
+	text-align: center;
+}
+
+.list-inlide{
+	list-style: none;
+	padding-left: 0px;
+}
+
+#box1 {
+	width: 300px;
+	height: 400px;
+	background-color: rgba(0,0,0,0,1);
+	border: 4px; 
+	position: normal;
+	top: 20px;
+	left: 10px;
+	margin-right: 5px; 
+}
+
+#box2 {
+	width: 200px;
+	height: 240px;
+	margin-left: 470px;
+	margin-top: -400px;
+}
+
+#box3 {
+	width: 623px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 90px;
+	margin-bottom: 20px;
+	border: 10px;
+	line-height: 1.5em;
+}
+
+/* Custom design with class */
+
+
+@media (max-width: 960px;) {
+/* For a screen < 960px, this CSS will be read*/
+.container { 
+	width: 700px; }
+}
+
+@media (max-width: 720px;) {
+/* For a screen < 720px, this CSS will be read*/
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px;) {
+/* For a screen < 540px, this CSS will be read*/
+	.container {
+		width: 300px;
+	}
+}
+
+
